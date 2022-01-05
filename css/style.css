@@ -9,10 +9,23 @@ p{
     color: blueviolet;
 }
 
+.intro{
+    color: darkgoldenrod;
+}
+
 h1{
     color:greenyellow;
 }
 
-div{background-color: pink;
+.top-section{
+    background-color: pink;
+}
 
+.bottom-section{
+    background-color: blueviolet;
+}
+
+
+span{
+    color: yellow;
 }
