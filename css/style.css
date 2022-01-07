@@ -2,27 +2,12 @@ body{
     background-color: aquamarine;
     color: white;
     font-size: 21 px;
+    font-family: Futura, sans-serif;
 
 }
 
-p{
-    color: blueviolet;
-}
-
-.intro{
-    color: darkgoldenrod;
-}
-
-h1{
-    color:greenyellow;
-}
-
-.top-section{
-    background-color: pink;
-}
-
-.bottom-section{
-    background-color: blueviolet;
+p, h1 {
+    color: green
 }
 
 
@@ -47,4 +32,39 @@ span{
     padding-right:10px;
     padding-top: 10px;
     padding-bottom: 300px;
+}
+
+a{
+    color: yellow;
+}
+
+a:hover {
+    color:blue;
+}
+
+.body-text{
+    background-color: orange;
+    padding: 50px;
+}
+
+.body-text p {
+    color: white;
+}
+
+.body-text a {
+    color:plum;
+}
+
+.body-text a:hover {
+    color:royalblue;
+}
+
+ol{
+    background-color: saddlebrown;
+
+}
+
+ol li {
+    background-color: red;
+    color: yellow;
 }
