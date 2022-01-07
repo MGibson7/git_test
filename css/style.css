@@ -29,3 +29,22 @@ h1{
 span{
     color: yellow;
 }
+
+/* comment */
+
+.box{
+    background-image: url(../img/cooper.jpeg);
+    background-size:cover;
+    width: 500px; 
+
+    margin: 500px;
+
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+
+    padding-left: 25px;
+    padding-right:10px;
+    padding-top: 10px;
+    padding-bottom: 300px;
+}
