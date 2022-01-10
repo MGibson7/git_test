@@ -17,21 +17,21 @@ span{
 
 /* comment */
 
-.box{
-    background-image: url(../img/cooper.jpeg);
-    background-size:cover;
-    width: 500px; 
+.blue-box {
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    float: left;
 
-    margin: 500px;
 
-    border-width: 5px;
-    border-color: red;
-    border-style: solid;
+}
 
-    padding-left: 25px;
-    padding-right:10px;
-    padding-top: 10px;
-    padding-bottom: 300px;
+.red-box {
+    background-color: red;
+    height: 500px;
+    width: 500px;
+
+
 }
 
 a{
@@ -67,4 +67,16 @@ ol{
 ol li {
     background-color: red;
     color: yellow;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin: 0 auto;
 }
